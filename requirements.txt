@@ -1,0 +1,9 @@
+Flask
+flask-cors
+gunicorn
+scikit-learn
+joblib
+inflect
+pandas
+mysql-connector-python
+catboost
