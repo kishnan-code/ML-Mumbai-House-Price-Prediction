@@ -116,12 +116,28 @@
         color: #000;
         text-align: center;
       }
+      form h2 {
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 8px;
+      }
 
       #predictionResult {
-        margin-top: 15px;
-        font-size: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        font-size: 24px;
         font-weight: bold;
+        color: #ffffff;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 12px;
         text-align: center;
+        text-shadow: 1px 1px 3px #000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        animation: fadeInResult 0.5s ease-in-out;
       }
 
       #status {
@@ -199,6 +215,12 @@
         h2 {
           font-size: 20px;
         }
+        form h2 {
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 8px;
+        }
       }
 
       @media (max-width: 400px) {
@@ -257,6 +279,12 @@
           font-size: 10px;
           height: 42px;
           box-sizing: border-box;
+        }
+        form h2 {
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 8px;
         }
 
         button {
@@ -388,8 +416,9 @@
         />
 
         <button type="submit">Submit</button>
-        <div id="predictionResult"></div>
+
       </form>
+      <div id="predictionResult"></div>
       <div class="footer">
         Designed and Developed by Vishal Jamalpuri & Kishan Prajapati
       </div>
